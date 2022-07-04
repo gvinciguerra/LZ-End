@@ -6,7 +6,7 @@ This repository contains an implementation of two LZ-End parsing algorithms desc
 - Dominik Kempa and Dmitry Kosolobov. [LZ-End Parsing in Linear Time](https://doi.org/10.4230/LIPIcs.ESA.2017.53). ESA 2017. [Only the algorithm of §2]
 
 The implementation supports both **byte** and **integer** alphabets.
-It does not define a compressed file format, rather it outputs a list of LZ-End phrases, each represented as a `struct` with the phrase length, the id of a previous phrase where the phrase end, and the trailing symbol.
+It does not define a compressed file format, rather it outputs a list of LZ-End phrases, each represented as a `struct` with the phrase length, the id of a previous phrase where the phrase ends, and the trailing symbol.
 
 Check out also [this repository](https://github.com/dominikkempa/lz-end-toolkit) by Kempa and Kosolobov.
 
